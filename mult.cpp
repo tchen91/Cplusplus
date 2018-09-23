@@ -1,6 +1,7 @@
 #include<iostream>
 #include<iomanip>
 #include<cmath>
+
 using namespace std;
 
 int main() {
@@ -9,17 +10,15 @@ int main() {
 
   // Input the desired rows and columns 
   cin >> hex >> row >> col;
-  
-  // cout << col * row << endl;
-  // cout << hex << col * row << endl;
 
   // Adjust the pace to display the numbers
-  if (col * row > pow(2, 16) - 1) {
-    spacesz = 9; 
-  }
-  else {
-    spacesz = 5;
-  }
+  // if (col * row > pow(2, 16) - 1) {
+  //  spacesz = 9; 
+  // }
+  // else {
+  //   spacesz = 5;
+  // }
+  spacesz = ceil(log2(row * col + 1) / 4) + 1;
 
   // Arrange the multiplication table
   for (int i = 1; i <= row + 1; ++i) {
