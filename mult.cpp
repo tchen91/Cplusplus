@@ -1,7 +1,7 @@
 /**
  * Multiplication Table Generator. The objective of this program is to read in two integers from standard input, 
  * and to output a multiplication table based on that input. The first number read will be the number of rows 
- * in the table. The second number will be the number of columns.
+ * in the table. The second number will be the number of columns. Assume that all input will be correct.
  */
 
 #include<iostream>
