@@ -1,3 +1,7 @@
+/**
+ * Refer to cplusplus website about the iomanip package
+ */
+
 #include<iostream>
 #include<iomanip>
 #include<cmath>
