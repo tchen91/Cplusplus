@@ -1,3 +1,8 @@
+/**
+ * Input one integer, and it will output the factorial of the integer. 
+ * Learn the recursion in C++.
+ */
+
 #include<iostream>
 using namespace std;
 
