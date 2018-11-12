@@ -1,5 +1,6 @@
 /**
  * A class example about pointer, reference (alias)
+ * If passing by pointer or reference, the input variable will be written and modified.
  * By TC
  */
 #include<iostream>
