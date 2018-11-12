@@ -24,4 +24,3 @@ unsigned long factorial(unsigned long number) {
   // Recursive Step.
   return number * factorial(number - 1);
 }
-
